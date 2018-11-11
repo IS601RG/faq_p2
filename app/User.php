@@ -60,4 +60,8 @@ class User extends Authenticatable
     {
         return $this->hasOne('App\Question');
     }
+    public function answers()
+    {
+        return $this->hasOne('App\Answer');
+    }
 }
