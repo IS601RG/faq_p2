@@ -33,7 +33,7 @@ Route::post('/questions/{question_id}/answers/', 'AnswerController@store')->name
 Route::patch('/questions/{question_id}/answer/{answer_id}', 'AnswerController@update')->name('answers.update');
 Route::get('/questions/{question_id}/answers/create', 'AnswerController@create')->name('answers.create');
 
-
+Route::get('/lesson/create','LessonController@newLesson');
 
 Route::resources([
     'question' => 'QuestionController',

@@ -15,7 +15,7 @@
 
                             <div class="card-deck">
                                 @forelse($questions as $question)
-                                    <div class="col-sm-4 d-flex align-items-stretch">
+                                    <div class="col-sm-4 d-flex align-items-stretch float-none">
                                         <div class="card mb-3 ">
                                             <div class="card-header">
                                                 <small class="text-muted">
