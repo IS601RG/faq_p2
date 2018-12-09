@@ -17,12 +17,16 @@ class NewLessonNotification extends Notification
      *
      * @return void
      */
-    public function __construct($Lesson, $lesson)
+    public function __construct($Lesson)
     {
         //
         $this->lesson=$lesson;
     }
 
+    public function via($notifiable)
+    {
+        return ['database'];
+    }
     public function toDatabase($notifiable)
     {
         return [

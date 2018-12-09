@@ -22,7 +22,7 @@ class LessonController extends Controller
         $lesson->save();
         $user = User::where('id', '!=',auth()->user()->id)->get();
 
-        if(\Notificaiton::send($user,new NewLessonNotification(Lesson::latest('id')->first())))
+        if(\Notification::send($user,new NewLessonNotification(Lesson::latest('id')->first())))
         {
             return back();
         }
