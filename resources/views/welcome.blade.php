@@ -82,7 +82,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel <br>
+                    <h8>Final Project - FAQ</h8>
                 </div>
 
             </div>
