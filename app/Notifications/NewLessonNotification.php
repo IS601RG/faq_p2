@@ -9,6 +9,7 @@ use Illuminate\Notifications\Messages\MailMessage;
 
 class NewLessonNotification extends Notification
 {
+
     use Queueable;
     protected $lesson;
 
@@ -19,7 +20,6 @@ class NewLessonNotification extends Notification
      */
     public function __construct($Lesson)
     {
-        //
         $this->lesson=$lesson;
     }
 
@@ -30,8 +30,8 @@ class NewLessonNotification extends Notification
     public function toDatabase($notifiable)
     {
         return [
-            //
             'lesson' => $this->lesson,
+
         ];
     }
 }

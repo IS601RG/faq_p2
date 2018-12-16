@@ -34,6 +34,7 @@ Route::patch('/questions/{question_id}/answer/{answer_id}', 'AnswerController@up
 Route::get('/questions/{question_id}/answers/create', 'AnswerController@create')->name('answers.create');
 
 Route::get('/lesson/create','LessonController@newLesson');
+Route::post('/notificaiton/lesson/notification','LessonController@notificaiton');
 
 Route::resources([
     'question' => 'QuestionController',
