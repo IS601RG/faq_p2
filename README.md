@@ -1,31 +1,16 @@
-Mini Project 3 - FAQ:1,2 & 3
+Final Project - FAQ
 
-1) Part 1 The Database <br>
-    a. Setup the database models, migrations, unit tests, and seeds for the FAQ project's users, profile, questions, 
-    and answers.  
-    b. You must make a new branch for each feature and commit each feature to that branch as it's completed.  
-    c. Each branch (Profile, Question, Answer) should have the model, migration, factory, test, and seed files for it.
+<h5>Add Feature - Implement real-time push notification </h5>
 
+Stories:
 
-2) Part 2 - Displaying Data <br>
-    a. Add the views to display the seed data for the user profile, user home page to display questions, the question 
-    page that displays the answers to question in the sidebar.  
-    b. When you display questions, you should show the number of answers and the time since the question was updated.  
+1. A website seems better when personalized, so a good 
+feature is seeing alerts/notifications on your page.
+2. User 1 logs-in, notification will be send in the database, when 
+user 2 log-in the notification will show as 1
+3. Notification icon will have total number of notifications and message(s)
+4. Modified Welcome page and the font
 
-
-3) Part 3 - Mini Project 3 <br>
-   a. Creating, Edit, and Delete Assignment
-
-Github Branch - Part 4:
-
-Laravel Collective: 
-
-https://laravelcollective.com/docs/master/html
-
-Remember to get 5.6 of the module:
-
-https://github.com/LaravelCollective/html
-
-composer require "laravelcollective/html":"^5.6.0"
-
-Link to Heroku: http://pure-beach-94442.herokuapp.com/ 
+References: 
+https://www.youtube.com/watch?v=Tkq0H-McErE
+https://www.youtube.com/watch?v=i6Rdkv-DLwk&t=5s
