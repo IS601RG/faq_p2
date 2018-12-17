@@ -11,6 +11,6 @@ user 2 log-in the notification will show as 1
 3. Notification icon will have total number of notifications and message(s)
 4. Modified Welcome page and the font
 
-References: 
-https://www.youtube.com/watch?v=Tkq0H-McErE
+References: <br>
+https://www.youtube.com/watch?v=Tkq0H-McErE <br>
 https://www.youtube.com/watch?v=i6Rdkv-DLwk&t=5s
